@@ -1,0 +1,12 @@
+node_modules/
+dist/
+
+# 本地环境变量（绝对不能提交）
+.env
+.env.*
+!.env.example
+
+# 调试落盘的轨迹日志
+logs/
+*.log
+*.tsbuildinfo
